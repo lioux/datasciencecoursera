@@ -39,7 +39,6 @@ Steps to reproduce this project
 
 * Open the R script `run_analysis.R` using a text editor.
 * Change the parameter of the `setwd` function call to a directory where the data set zip file has been extracted.
-* Make sure you have both dplyr and reshape2 R libraries installed as they're re
-quired by the script.
+* Make sure you have both dplyr and reshape2 R libraries installed as they're required by the script.
 * Run the R script `run_analysis.R`.
 * It will output a `tidy.txt` file.
