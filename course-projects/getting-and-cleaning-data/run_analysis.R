@@ -75,4 +75,4 @@ meanAndStdDeviationData_melted <- melt(meanAndStdDeviationData, id.vars = c("sub
 tidyData <- dcast(meanAndStdDeviationData_melted, subjectId + activityDescription ~ variable, mean);
 
 # Record data set
-# write.table(tidyData, "tidy.txt");
+# write.table(tidyData, "tidy.txt", row.name = FALSE);
